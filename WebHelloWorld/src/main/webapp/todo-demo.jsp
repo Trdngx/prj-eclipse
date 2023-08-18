@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	
+	<!-- Create HTML form -->
+	<form action="todo-demo.jsp">
+		Add new item: <input type="text" name="theItem"> 
+		<input type="submit" value="Submit">
+	</form>
 </body>
 </html>
