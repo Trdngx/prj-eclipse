@@ -32,5 +32,16 @@
 		}
 
 	%>
+	<!-- Step 3: Display all "To Do" item from session -->
+<hr>
+<b>To List Items:</b> <br/>
+
+<ol>
+<%
+	for (String temp : items) {
+		out.println("<li>" + temp + "</li>");
+	}
+%>
+</ol>
 </body>
 </html>
