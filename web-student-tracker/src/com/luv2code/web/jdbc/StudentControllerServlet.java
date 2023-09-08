@@ -77,7 +77,7 @@ public class StudentControllerServlet extends HttpServlet {
 		}
 	}
 
-	private void addStudent(HttpServletRequest request, HttpServletResponse response) {
+	private void addStudent(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		// read student info from data
 		String firstName = request.getParameter("firstName");
 		String lastName = request.getParameter("lastName");
@@ -90,6 +90,7 @@ public class StudentControllerServlet extends HttpServlet {
 		studentDbUtil.addStudent(theStudent);
 		
 		// send back to main page (the student list)
+		listStudents(request, response);
 		
 	}
 
