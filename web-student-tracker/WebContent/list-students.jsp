@@ -31,15 +31,15 @@
 					<th>First Name</th>
 					<th>Last Name</th>
 					<th>Email</th>
-					<th>Email</th>
+					<th>Action</th>
 				</tr>
 				
 				<c:forEach var="tempStudent" items="${STUDENT_LIST }">
 				
 					<tr>
 						<td> ${tempStudent.firstName}</td>
-						<td> ${tempStudent.lastName</td>
-						<td> ${tempStudent.email</td>
+						<td> ${tempStudent.lastName}</td>
+						<td> ${tempStudent.email}</td>
 					</tr>
 				
 				</c:forEach>
