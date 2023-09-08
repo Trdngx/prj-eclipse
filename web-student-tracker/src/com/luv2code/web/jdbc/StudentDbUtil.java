@@ -81,4 +81,10 @@ public class StudentDbUtil {
 			exc.printStackTrace();
 		}
 	}
+
+	public void addStudent(Student theStudent) {
+		// TODO Auto-generated method stub
+		
+		// do nothing for now ...
+	}
 }
