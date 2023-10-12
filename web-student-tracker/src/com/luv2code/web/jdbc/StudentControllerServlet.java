@@ -97,6 +97,7 @@ public class StudentControllerServlet extends HttpServlet {
 				request.getRequestDispatcher("/update-student-form.jsp");
 		dispatcher.forward(request, response);
 		
+		
 	}
 
 
@@ -115,6 +116,7 @@ public class StudentControllerServlet extends HttpServlet {
 		
 		// send back to main page (the student list)
 		listStudents(request, response);
+		
 		
 	}
 
